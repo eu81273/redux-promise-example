@@ -1,0 +1,36 @@
+{
+  "name": "redux-proimse-example",
+  "version": "1.0.0",
+  "description": "Redux + Promise Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eu81273/redux-promise-example.git"
+  },
+  "author": "AHN JAE-HA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eu81273/redux-promise-example/issues"
+  },
+  "homepage": "https://github.com/eu81273/redux-promise-example#readme",
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
+    "redux-promise": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
